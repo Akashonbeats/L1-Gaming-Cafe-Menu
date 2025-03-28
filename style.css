@@ -37,7 +37,7 @@ header h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-inline: 100px;
+  padding-inline: 150px;
   column-gap: 200px;
   row-gap: 100px;
 }
@@ -57,7 +57,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding-left: 60px;
+  padding-left: 20px;
   list-style: none;
   text-wrap: nowrap;
 }

@@ -10,14 +10,18 @@ nav {
   text-wrap: wrap;
 }
 ul {
-  padding-left: 15vw;
+  padding-left: 10vw;
 }
 li {
   text-align: left;
 }
+li h3{
+  width: 20ch;
+  text-wrap: wrap;
+}
 table {
-  font-size: 1.7rem;
-  border-spacing: 10px 0px; /* column-gap row-gap */
+  font-size: 2rem;
+  border-spacing: 0px 0px; /* column-gap row-gap */
 }
 thead tr th {
   font-size: 1.2rem;
