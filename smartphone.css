@@ -6,6 +6,12 @@ nav {
   padding-inline: 0;
   gap: 100px;
 }
+.category h2 {
+  text-wrap: wrap;
+}
+ul {
+  padding-left: 15vw;
+}
 li {
   text-align: left;
 }
