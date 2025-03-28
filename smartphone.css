@@ -1,0 +1,23 @@
+nav {
+  padding-block: 17px;
+}
+.categories-wrapper {
+  flex-direction: column;
+  padding-inline: 0;
+  gap: 100px;
+}
+li {
+  text-align: left;
+}
+table {
+  font-size: 1.7rem;
+  border-spacing: 10px 0px; /* column-gap row-gap */
+}
+thead tr th {
+  font-size: 1.2rem;
+  text-align: left;
+  padding-inline: 10px;
+}
+tbody tr td:is(:nth-child(2), :nth-child(3), :nth-child(4)) {
+  text-align: center;
+}
