@@ -6,11 +6,28 @@ nav {
   padding-inline: 0;
   gap: 100px;
 }
+.desktop-table{
+  display: none;
+}
+.mobile-table{
+  display: block;
+}
+.prices-wrapper{
+  display: flex;
+  gap: 10px;
+}
+.prices-wrapper h4{
+  font-size: 1rem;
+}
+.categories-wrapper span{
+  color: goldenrod;
+}
 .category h2 {
   text-wrap: wrap;
+  padding-inline: 40px;
 }
 ul {
-  padding-left: 10vw;
+  padding-left: 15vw;
 }
 li {
   text-align: left;

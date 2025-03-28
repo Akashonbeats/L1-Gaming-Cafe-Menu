@@ -41,6 +41,9 @@ header h2 {
   column-gap: 200px;
   row-gap: 100px;
 }
+.mobile-table{
+  display: none;
+}
 .category h2 {
   font-size: 2.5rem;
   text-shadow: -1px -1px 2px #cc6699, 1px -1px 2px #9966cc, -1px 1px 2px #cc6699,
@@ -71,6 +74,7 @@ li h3 {
 li h4 {
   font-size: 1.2rem;
   color: antiquewhite;
+  margin-top: 5px;;
 }
 /* CSS for Tables */
 table {
