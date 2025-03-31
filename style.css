@@ -43,18 +43,26 @@ header img{
   display: none; /* Shows up only in Mobile Screens */
   font-size: 3rem;
   margin-bottom: 20px;
+  text-shadow: -1px -1px 2px #d2b48c, 1px -1px 2px #4b2e2e, -1px 1px 2px #d2b48c,
+    1px 1px 2px #4b2e2e, -2px -2px 2px #d2b48c, 2px -2px 2px #4b2e2e,
+    -2px 2px 2px #d2b48c, 2px 2px 2px #4b2e2e, -3px -3px 2px #d2b48c,
+    3px -3px 2px #4b2e2e, -3px 3px 2px #d2b48c, 3px 3px 2px #4b2e2e;
 }
 .header-text h3{
   display: none; /* Shows up only in Mobile Screens */
+  text-shadow: -1px -1px 2px #d2b48c, 1px -1px 2px #4b2e2e, -1px 1px 2px #d2b48c,
+    1px 1px 2px #4b2e2e, -2px -2px 2px #d2b48c, 2px -2px 2px #4b2e2e,
+    -2px 2px 2px #d2b48c, 2px 2px 2px #4b2e2e, -3px -3px 2px #d2b48c,
+    3px -3px 2px #4b2e2e, -3px 3px 2px #d2b48c, 3px 3px 2px #4b2e2e;
 }
 .header-text h2 {
   font-family: Great Vibes;
   font-size: 7rem;
   text-align: center;
-  text-shadow: -1px -1px 2px #cc6699, 1px -1px 2px #9966cc, -1px 1px 2px #cc6699,
-    1px 1px 2px #9966cc, -2px -2px 2px #cc6699, 2px -2px 2px #9966cc,
-    -2px 2px 2px #cc6699, 2px 2px 2px #9966cc, -3px -3px 2px #cc6699,
-    3px -3px 2px #9966cc, -3px 3px 2px #cc6699, 3px 3px 2px #9966cc;
+  text-shadow: -1px -1px 2px #d2b48c, 1px -1px 2px #4b2e2e, -1px 1px 2px #d2b48c,
+    1px 1px 2px #4b2e2e, -2px -2px 2px #d2b48c, 2px -2px 2px #4b2e2e,
+    -2px 2px 2px #d2b48c, 2px 2px 2px #4b2e2e, -3px -3px 2px #d2b48c,
+    3px -3px 2px #4b2e2e, -3px 3px 2px #d2b48c, 3px 3px 2px #4b2e2e;
 }
 .welcome-text{
   display: flex;
@@ -64,6 +72,8 @@ header img{
   height: 100vh;
   text-align: center;
   margin-bottom: 50px;
+  background: linear-gradient(to bottom, black, #d2b48c, black);
+  color: #4b2e2e;
 }
 .welcome-text h1{
   padding-inline: 30px;
@@ -82,10 +92,10 @@ header img{
 }
 .category h2 {
   font-size: 2.5rem;
-  text-shadow: -1px -1px 2px #cc6699, 1px -1px 2px #9966cc, -1px 1px 2px #cc6699,
-    1px 1px 2px #9966cc, -2px -2px 2px #cc6699, 2px -2px 2px #9966cc,
-    -2px 2px 2px #cc6699, 2px 2px 2px #9966cc, -3px -3px 2px #cc6699,
-    3px -3px 2px #9966cc, -3px 3px 2px #cc6699, 3px 3px 2px #9966cc;
+  text-shadow: -1px -1px 2px #d2b48c, 1px -1px 2px #4b2e2e, -1px 1px 2px #d2b48c,
+    1px 1px 2px #4b2e2e, -2px -2px 2px #d2b48c, 2px -2px 2px #4b2e2e,
+    -2px 2px 2px #d2b48c, 2px 2px 2px #4b2e2e, -3px -3px 2px #d2b48c,
+    3px -3px 2px #4b2e2e, -3px 3px 2px #d2b48c, 3px 3px 2px #4b2e2e;
   margin-bottom: 35px;
   text-wrap: nowrap;
   text-align: center;
