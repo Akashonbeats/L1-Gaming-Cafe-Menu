@@ -1,25 +1,49 @@
 nav {
   padding-block: 17px;
 }
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+header img {
+  height: 200px;
+  margin-right: 0px;
+  margin-top: 10vh;
+  margin-bottom: 70px;
+}
+.header-text h1 {
+  display: block;
+  font-size: 2rem;
+}
+.header-text h3 {
+  display: block;
+  font-size: 1rem;
+}
+.header-text h2 {
+  font-size: 4rem;
+  margin-top: 90px;
+}
 .categories-wrapper {
   flex-direction: column;
   padding-inline: 0;
   gap: 100px;
 }
-.desktop-table{
+.desktop-table {
   display: none;
 }
-.mobile-table{
+.mobile-table {
   display: block;
 }
-.prices-wrapper{
+.prices-wrapper {
   display: flex;
   gap: 10px;
 }
-.prices-wrapper h4{
+.prices-wrapper h4 {
   font-size: 1rem;
 }
-.categories-wrapper span{
+.categories-wrapper span {
   color: goldenrod;
 }
 .category h2 {
@@ -32,7 +56,7 @@ ul {
 li {
   text-align: left;
 }
-li h3{
+li h3 {
   width: 20ch;
   text-wrap: wrap;
 }
