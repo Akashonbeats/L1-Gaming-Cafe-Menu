@@ -72,8 +72,8 @@ header img{
   height: 100vh;
   text-align: center;
   margin-bottom: 50px;
-  background: linear-gradient(to bottom, black, #d2b48c, black);
-  color: #4b2e2e;
+  background: linear-gradient(to bottom, black, #172612, black);
+  color: white;
 }
 .welcome-text h1{
   padding-inline: 30px;
@@ -99,8 +99,6 @@ header img{
   margin-bottom: 35px;
   text-wrap: nowrap;
   text-align: center;
-  backdrop-filter: blur(20px);
-  background-color: transparent;
 }
 ul {
   display: flex;
@@ -143,4 +141,42 @@ tbody tr td:nth-child(1) {
 tbody tr td:is(:nth-child(2), :nth-child(3), :nth-child(4)) {
   font-size: 1.2rem;
   color: antiquewhite;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  margin-top: 70px;
+  padding-top: 50px;
+  background-color: #172612;
+}
+footer h1{
+  font-size: 3rem;
+  padding-inline: 20px;
+  margin-bottom: 5px;
+}
+footer a{
+  margin-top: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+footer a:hover{
+  color: #c9ffb8;
+}
+footer a:active{
+  color: #c9ffb8;
+}
+footer a span{
+  font-family: 'Times New Roman', Times, serif;
+}
+.footer-strip{
+  width: 100%;
+  margin-top: 50px;
+  color: rgba(248, 248, 248, 0.661);
+  background-color: #111d0d;
+  font-size: 0.7rem;
+  padding-block: 10px;
 }
