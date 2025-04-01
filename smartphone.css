@@ -12,7 +12,7 @@ header img {
   height: 200px;
   margin-right: 0px;
   margin-top: 7vh;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 .header-text h1 {
   display: block;
@@ -21,7 +21,7 @@ header img {
 .header-text a {
   display: block;
   font-size: 1.5rem;
-  margin-top: 70px;
+  margin-top: 50px;
   color: #ffffff;
   text-decoration: none;
 }
@@ -30,9 +30,6 @@ header img {
 }
 .header-text a:active{
   color: #c9ffb8;
-}
-.header-text a span{
-  font-family: 'Times New Roman', Times, serif;
 }
 .header-text h2 {
   font-size: 4rem;
@@ -72,6 +69,7 @@ header img {
 }
 ul {
   padding-left: 15vw;
+  width: 100vw;
 }
 li {
   text-align: left;
@@ -79,6 +77,7 @@ li {
 li h3 {
   width: 20ch;
   text-wrap: wrap;
+  padding-right: 30px;
 }
 table {
   font-size: 2rem;
