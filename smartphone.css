@@ -11,20 +11,32 @@ header {
 header img {
   height: 200px;
   margin-right: 0px;
-  margin-top: 10vh;
+  margin-top: 7vh;
   margin-bottom: 70px;
 }
 .header-text h1 {
   display: block;
   font-size: 2rem;
 }
-.header-text h3 {
+.header-text a {
   display: block;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  margin-top: 70px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.header-text a:hover{
+  color: #c9ffb8;
+}
+.header-text a:active{
+  color: #c9ffb8;
+}
+.header-text a span{
+  font-family: 'Times New Roman', Times, serif;
 }
 .header-text h2 {
   font-size: 4rem;
-  margin-top: 90px;
+  margin-top: 20px;
 }
 .categories-wrapper {
   flex-direction: column;
@@ -45,7 +57,7 @@ header img {
   font-size: 1rem;
 }
 .categories-wrapper span {
-  color: goldenrod;
+  color: antiquewhite;
 }
 .category h2 {
   position: sticky;
@@ -81,7 +93,7 @@ tbody tr td:is(:nth-child(2), :nth-child(3), :nth-child(4)) {
   text-align: center;
 }
 footer h1 {
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin-bottom: 5px;
 }
 footer h5 {
