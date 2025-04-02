@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Norwester';
-    src: url('../fonts/norwester.ttf') format('truetype');
+    src: url('fonts/norwester.ttf') format('truetype');
 }
 @font-face{
     font-family: 'Great Vibes';
-    src: url('../fonts/GreatVibes-Regular.ttf') format('truetype');
+    src: url('fonts/GreatVibes-Regular.ttf') format('truetype');
 }
