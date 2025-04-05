@@ -22,11 +22,8 @@ header img {
   display: block;
   font-size: 1.5rem;
   margin-top: 50px;
-  color: #ffffff;
+  color: #8ec87d;
   text-decoration: none;
-}
-.header-text a:hover{
-  color: #c9ffb8;
 }
 .header-text a:active{
   color: #c9ffb8;
