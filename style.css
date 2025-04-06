@@ -12,6 +12,18 @@
     filter: blur(0);
   }
 }
+
+@keyframes slideInLeft{
+  0% {
+    transform: translateX(-40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
 /* Add styles for menu item animations */
 .hidden {
   visibility: hidden;
@@ -48,6 +60,12 @@ tbody tr td:is(:nth-child(2), :nth-child(3), :nth-child(4)){
 tbody tr td:is(:nth-child(2), :nth-child(3), :nth-child(4)).visible{
   opacity: 1;
   animation: rotate 1s ease-out forwards;
+}
+
+/* Landing Page Animation */
+
+.header-text a{
+  animation: slideInLeft 1s ease-out forwards;
 }
 
 /* ////////////////// End of Animations Section //////////////////// */
